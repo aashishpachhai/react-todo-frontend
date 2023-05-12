@@ -24,7 +24,7 @@ const TodoItems = ({ onEdit }: TodoItemsProps) => {
     },
   });
   if (isLoading) {
-    return <div>Loading.....</div>;
+    return <div>Loadings.....</div>;
   } else {
     return (
       <div className="w-[900px]">
